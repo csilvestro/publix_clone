@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+//Parent/Smart Component: App
+import { useState } from 'react';
+//React Router
+import { Routes, Route } from 'react-router-dom';
+import Layout from './pages/Layout';
+import BasicButton from './components/buttons/BasicButton';
+import ThemedButton from './components/buttons/ThemedButton';
+import CardItem from './components/cards/CardItem';
+// import StyledButton from './components/StyledButton';
+import Img from './images/Publix-logo.jpg';
 
 function App() {
+  const [foodItem, setFoodItem] = useState("itemImg: ../images/food.jpg",)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* A navigation would go here */}
+      <Routes>
+        <Route exact path='/' element={<Layout />} /> 
+        <Route path='/Layout' element={<Layout />} /> 
+      </Routes>
+      <div>
+        <BasicButton>I am a basic themed button! 🤗</BasicButton>
+        <ThemedButton>button</ThemedButton>
+        <CardItem itemImg={Img} />
+        {/* <StyledButton theme={{bg: theme.colors.primrose, color: theme.colors.white}}>I am a button with a theme prop! 😎</StyledButton> */}
+      </div>
     </div>
   );
 }
