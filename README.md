@@ -1,15 +1,30 @@
-# publix_mobile
+# Publix_Clone
 
-Part 1: 
-Create the following components
+Branches:
 
-header,
-navigation,
-inputs, 
-cards
+1. Components 
+    - [ ] Top Header - Assigned to Jordin
+    - [ ] Navigation - 
+    - [ ] Inputs - 
+    - [ ] Cards - 
+
+2. Dev
+    - My working branch
+
+3. Staging
+    - Version before deployment
+
+4. Main
+    - Deployed Application
 
 
-Dependencies:
+## Duplicate the following layouts - Mobile Layouts. We will work on desktop later.
+![Mobile - Landing Page](/images/Landing_Mobile.jpg)
+![Mobile - Navigation](/images/Nav_Mobile.png)
+![Mobile - Products Page](/images/SingleProd_Mobile.png)
+
+
+## Dependencies:
 styled-components
-React Router
-npm i react-router-dom
+react-router-dom
+hooks-useContext - To work along with my files I used this tutorial. This is so that you can follow along with what I have here for our project.![Tutorial](https://www.youtube.com/watch?v=HptuMAUaNGk)

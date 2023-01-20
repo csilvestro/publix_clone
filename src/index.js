@@ -7,14 +7,17 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from "styled-components";
 import theme from "../src/components/theme";
+import Context from './context/Context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <Context>
+          <App />
+        </Context>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
