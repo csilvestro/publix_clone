@@ -18,13 +18,14 @@ Branches:
     - Deployed Application
 
 
-### Duplicate the following layouts - Mobile Layouts. We will work on desktop later.
+### Mobile Layouts
+We will work on desktop later.
 <img src="/src/images/Landing_Mobile.jpg" width="300">
 <img src="/src/images/Nav_Mobile.png " width="300">
 <img src="/src/images/SingleProd_Mobile.png" width="300">
 
 
-## Dependencies:
-styled-components
-react-router-dom
-hooks-useContext - To work along with my files I used this tutorial. This is so that you can follow along with what I have here for our project. https://www.youtube.com/watch?v=HptuMAUaNGk
+## Dependencies
+- styled-components
+- react-router-dom
+- hooks-useContext - To work along with my files I used this tutorial. This is so that you can follow along with what I have here for our project. https://www.youtube.com/watch?v=HptuMAUaNGk
