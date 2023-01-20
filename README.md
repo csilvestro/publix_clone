@@ -19,10 +19,9 @@ Branches:
 
 
 ### Mobile Layouts
-We will work on desktop later.
-<img src="/src/images/Landing_Mobile.jpg" width="300">
-<img src="/src/images/Nav_Mobile.png " width="300">
-<img src="/src/images/SingleProd_Mobile.png" width="300">
+<img src="/src/images/Landing_Mobile.jpg" width="250">
+<img src="/src/images/Nav_Mobile.png " width="250">
+<img src="/src/images/SingleProd_Mobile.png" width="250">
 
 
 ## Dependencies
