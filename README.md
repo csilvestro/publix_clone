@@ -19,9 +19,9 @@ Branches:
 
 
 ## Duplicate the following layouts - Mobile Layouts. We will work on desktop later.
-![Mobile - Landing Page](/src/images/Landing_Mobile.jpg)
-![Mobile - Navigation](/src/images/Nav_Mobile.png)
-![Mobile - Products Page](/src/images/SingleProd_Mobile.png)
+![Mobile - Landing Page](/src/images/Landing_Mobile.jpg  | width=100)
+![Mobile - Navigation](/src/images/Nav_Mobile.png  | width=100)
+![Mobile - Products Page](/src/images/SingleProd_Mobile.png  | width=100)
 
 
 ## Dependencies:
