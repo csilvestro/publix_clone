@@ -18,10 +18,10 @@ Branches:
     - Deployed Application
 
 
-## Duplicate the following layouts - Mobile Layouts. We will work on desktop later.
-![Mobile - Landing Page]<img src="/src/images/Landing_Mobile.jpg" width="100" height="100">
-![Mobile - Navigation]<img src="/src/images/Nav_Mobile.png " width="100" height="100">
-![Mobile - Products Page]<img src="/src/images/SingleProd_Mobile.png g" width="100" height="100">
+### Duplicate the following layouts - Mobile Layouts. We will work on desktop later.
+<img src="/src/images/Landing_Mobile.jpg" width="300">
+<img src="/src/images/Nav_Mobile.png " width="300">
+<img src="/src/images/SingleProd_Mobile.png" width="300">
 
 
 ## Dependencies:
