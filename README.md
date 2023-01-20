@@ -19,12 +19,12 @@ Branches:
 
 
 ## Duplicate the following layouts - Mobile Layouts. We will work on desktop later.
-![Mobile - Landing Page](/images/Landing_Mobile.jpg)
-![Mobile - Navigation](/images/Nav_Mobile.png)
-![Mobile - Products Page](/images/SingleProd_Mobile.png)
+![Mobile - Landing Page](/src/images/Landing_Mobile.jpg)
+![Mobile - Navigation](/src/images/Nav_Mobile.png)
+![Mobile - Products Page](/src/images/SingleProd_Mobile.png)
 
 
 ## Dependencies:
 styled-components
 react-router-dom
-hooks-useContext - To work along with my files I used this tutorial. This is so that you can follow along with what I have here for our project.![Tutorial](https://www.youtube.com/watch?v=HptuMAUaNGk)
+hooks-useContext - To work along with my files I used this tutorial. This is so that you can follow along with what I have here for our project. https://www.youtube.com/watch?v=HptuMAUaNGk
