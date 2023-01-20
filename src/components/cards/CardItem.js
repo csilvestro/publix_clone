@@ -7,7 +7,7 @@ const styles = {
     container: {
         background: 'grey',
         borderRadius: '50%',
-        width: '100px',
-        height: '100px'
+        width: '50px',
+        height: '50px'
     }
 }
