@@ -26,3 +26,8 @@ Branches:
 - styled-components
 - react-router-dom
 - hooks-useContext - To work along with my files I used this tutorial. This is so that you can follow along with what I have here for our project. https://www.youtube.com/watch?v=HptuMAUaNGk
+
+
+
+### Grocery api
+https://docs.chef.io/supermarket/supermarket_api/#cookbooks
